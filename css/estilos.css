@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans&family=Quicksand&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+nav .active{
+    border-radius: 20px;
+    border: 1px solid #E20000;
+}
+.btn-rojo{
+    background-color: #E20000;
+    border-radius: 20px;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 8px;
+}
+.link-rojo{
+    color: #E20000;
+}
+.btn-rojo:hover{
+    background-color: #370a6d;
+    color: white;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+p{
+    color: #6a6a6a;
+}
+#contacto,#inicio{
+    background-image: url(../imagenes/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.btn-button{
+    background-color: white;
+    border: 0px;
+    border-radius: 8px;
+    padding: 5px 25px ;
+}
+.btn-button:hover{
+    background-color: #370a6d;
+    color: white;
+}
+form textarea{
+    height: 100px;
+}
+#contacto footer{
+    color: white;
+}
+#contacto footer a{
+    color: white;
+}
+#contacto footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#contacto .fa-linkedin{
+    font-size: 30px;
+}
+.btn-whatsapp a{
+    position: fixed;
+    right: 50px;
+    bottom: 0px;
+    background-color: #370a6d;
+    color: white;
+    border: 1px solid #370a6d;
+    border-radius: 8px 8px 0 0;
+}
+.fa-whatsapp{
+    font-size: 30px;
+}
+/*Proyecto*/
+#proyectos{
+    background-image: url(../imagenes/fondo-proyectos.png);
+    background-size: cover;
+}
+
+.proyecto h2{
+        text-transform: uppercase;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        background: rgb(125, 7, 7);
+        background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+        padding: 8px 16px;
+}
+.proyecto img{
+    height: 217px;
+}
+.proyecto{
+    background-color: white;
+    
+}
+.proyecto p{
+    font-size: 14px;
+    color: #6a6a6a;
+    height: 100px;
+}
+#proyectos  footer a,#sobre-mi footer a{
+    color: red;
+}
+#proyectos footer .fa-github,#sobre-mi footer .fa-github{
+    font-size: 30px;
+    color: red;
+}
+#proyectos footer .fa-linkedin,#sobre-mi footer .fa-linkedin{
+    font-size: 30px;
+    
+}
+#proyectos footer .btn-whatsapp a,#sobre-mi footer .btn-whatsapp a{
+    color: white;
+}
+/*INCIO*/
+#inicio img{
+    height: 400px;
+}
+#inicio img:hover{
+    height: 410px;
+}
+.cohete{
+    height: 410px;
+}
+
+#inicio p{
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 17px;
+}
+#inicio footer{
+    color: white;
+}
+#inicio footer a{
+    color: white;
+}
+#inicio footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+#inicio .fa-linkedin{
+    font-size: 30px;
+    border-radius: 22px;
+}
+#inicio .btn-button{
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    padding: 5px 25px ;
+    text-decoration: none;
+    color: black;
+}
+#inicio .btn-button:hover{
+    background-color: #370a6d;
+    color: white;
+}
+/*SOBRE MI*/
+#sobre-mi img{
+height: 225px;
+width: 225px;
+border-radius: 50%;
+}
+#sobre-mi .btn-rojo{
+    background-color: #E20000;
+    border-radius: 20px;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    padding: 8px;
+}
+#sobre-mi .btn-rojo:hover{
+    background-color: #370a6d;
+    color: white;
+}
+#stack{
+    background: rgb(125, 7, 7);
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, rgba(215, 11, 11, 1) 100%);
+}
+#stack h2{
+    color: white;
+    font-size: 24px;
+}
+#stack h3{
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+#stack .tecnologia{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100%;
+}
+#stack .tecnologia i{
+    font-size: 60px;
+    color: #6A6A6A;
+}
+#experiencia img.img-fluid ,#formacion img.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+#experiencia h2, #formacion h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+#experiencia h3, #formacion h3{
+    color: #6a6a6a;
+    font-size: 18px;
+    font-weight: 600;
+}
+#experiencia h4, #formacion h4{
+    font-size: 17px;
+}
+#experiencia h5, #formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
+#experiencia .fa-solid {
+    font-size: 60px;
+    
+}
