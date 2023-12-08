@@ -109,7 +109,6 @@ form textarea{
 }
 #proyectos footer .fa-linkedin,#sobre-mi footer .fa-linkedin{
     font-size: 30px;
-    
 }
 #proyectos footer .btn-whatsapp a,#sobre-mi footer .btn-whatsapp a{
     color: white;
@@ -221,6 +220,9 @@ border-radius: 50%;
 }
 #experiencia .fa-solid, #formacion .fa-solid{
     font-size: 60px;  
+}
+#otros{
+    background-color: #eee;
 }
 #otros .card{
     height: 182px;
