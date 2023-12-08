@@ -219,7 +219,32 @@ border-radius: 50%;
     color: #6A6A6A;
     font-size: 14px;
 }
-#experiencia .fa-solid {
-    font-size: 60px;
-    
+#experiencia .fa-solid, #formacion .fa-solid{
+    font-size: 60px;  
+}
+#otros .card{
+    height: 182px;
+}
+#otros .fa-solid{
+    font-size: 80px;
+    color: white;
+}
+
+#otros .card-otros{
+    border-radius: 15px;
+}
+#otros .card{
+    background-color: #370a6d;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#otros h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+#otros ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
 }
